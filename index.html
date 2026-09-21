@@ -17,14 +17,20 @@
   <meta property="og:url" content="https://waghela-enterprises.github.io/waghela-enterprises/">
   <meta property="og:locale" content="en_IN">
   <meta property="og:site_name" content="Waghela Enterprises">
-  <meta property="og:image" content="https://waghela-enterprises.github.io/waghela-enterprises/favicon.svg">
+  <meta property="og:image" content="https://waghela-enterprises.github.io/waghela-enterprises/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Waghela Enterprises | Pipe Jacking &amp; Micro Tunnelling">
   <meta name="twitter:description" content="Leaders in Underground Infrastructure &amp; Trenchless Technology. Thane / Mumbai based engineers &amp; contractors.">
+  <meta name="twitter:image" content="https://waghela-enterprises.github.io/waghela-enterprises/images/og-image.jpg">
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
   <!-- LocalBusiness JSON-LD -->
@@ -36,7 +42,8 @@
     "description": "Leaders in Underground Infrastructure & Trenchless Technology. Engineers & Contractors specializing in NATM, microtunnelling, pipe jacking, HDD, open trench, and logistics. Headquartered in Thane, Maharashtra.",
     "url": "https://waghela-enterprises.github.io/waghela-enterprises/",
     "email": "waghela.enterprises@gmail.com",
-    "telephone": ["+91-96194-96191", "+91-98215-59495"],
+    "telephone": ["+91-98215-59495", "+91-96194-96191"],
+    "image": "https://waghela-enterprises.github.io/waghela-enterprises/images/og-image.jpg",
     "vatID": "27AASPW3890J1ZO",
     "address": {
       "@type": "PostalAddress",
@@ -93,24 +100,37 @@
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Projects</a></li>
           <li><a href="#clients">Clients</a></li>
           <li><a href="#hse">HSE</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <a class="btn btn-primary btn-sm header-cta" href="https://wa.me/919821559495" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero">
-      <div class="container hero-grid">
+    <!-- HERO -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-media" aria-hidden="true">
+        <img
+          src="images/hero-natm.jpg"
+          alt=""
+          width="1600"
+          height="1223"
+          fetchpriority="high"
+          decoding="async">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
         <div class="hero-copy">
-          <p class="eyebrow">Underground Infrastructure · Trenchless Technology</p>
+          <p class="eyebrow gold">Underground Infrastructure · Trenchless Technology</p>
           <h1>Leaders in Underground Infrastructure &amp; Trenchless Technology</h1>
-          <p class="lead">Waghela Enterprises is a Thane-based engineering &amp; contracting firm delivering NATM, microtunnelling, pipe jacking, HDD, open trench, and site logistics — with precision below ground and reliability above all.</p>
+          <p class="lead">Precision Below Ground — Reliability Above All. NATM, microtunnelling, pipe jacking, HDD, open trench, and logistics — delivered from Thane across the Mumbai Metropolitan Region.</p>
           <div class="hero-cta">
             <a class="btn btn-primary" href="https://wa.me/919821559495" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
-            <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+            <a class="btn btn-ghost-light" href="#gallery">View Projects</a>
           </div>
           <dl class="hero-meta">
             <div>
@@ -128,15 +148,16 @@
           </dl>
         </div>
         <aside class="hero-card" aria-label="Quick contact">
-          <h2>Talk to us</h2>
+          <p class="hero-card-label">Talk to us</p>
+          <h2>Project enquiries</h2>
           <ul class="contact-list">
             <li>
-              <span>Mobile</span>
-              <a href="tel:+919619496191">+91 96194 96191</a>
+              <span>Main</span>
+              <a href="tel:+919821559495">+91 98215 59495</a>
             </li>
             <li>
               <span>Alternate</span>
-              <a href="tel:+919821559495">+91 98215 59495</a>
+              <a href="tel:+919619496191">+91 96194 96191</a>
             </li>
             <li>
               <span>Email</span>
@@ -144,31 +165,52 @@
             </li>
             <li>
               <span>HQ</span>
-              <p>Thane – 400 607</p>
+              <p>Thane — 400 607</p>
             </li>
           </ul>
+          <a class="btn btn-primary btn-block" href="https://wa.me/919821559495" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
         </aside>
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section class="section" id="about">
       <div class="container">
-        <header class="section-head">
-          <p class="eyebrow">About</p>
-          <h2>Precision Below Ground — Reliability Above All</h2>
-        </header>
-        <div class="about-grid">
-          <p>Waghela Enterprises delivers specialized tunnelling and utility infrastructure for main contractors across the Mumbai Metropolitan Region and Maharashtra. From Thane headquarters we focus on disciplined execution, site safety, and quality control — from crew induction through plant operations and finishing works.</p>
-          <ul class="pillars">
-            <li><strong>Trenchless expertise</strong> — Pipe jacking &amp; microtunnelling</li>
-            <li><strong>Conventional methods</strong> — NATM, HDD, open trench</li>
-            <li><strong>Site logistics</strong> — Coordinated plant, materials &amp; manpower</li>
-            <li><strong>HSE culture</strong> — Induction, GREEN CARD plant, PPE &amp; QC</li>
-          </ul>
+        <div class="about-layout">
+          <div class="about-photo">
+            <img
+              src="images/about-natm-worker.jpg"
+              alt="NATM tunnel interior — worker on scaffolding with shotcrete lining"
+              width="900"
+              height="2230"
+              loading="lazy"
+              decoding="async">
+          </div>
+          <div class="about-copy">
+            <header class="section-head align-left">
+              <p class="eyebrow">About</p>
+              <h2>Precision Below Ground — Reliability Above All</h2>
+            </header>
+            <p>Waghela Enterprises is a specialised underground infrastructure contractor headquartered in Thane, Maharashtra. We deliver subsurface engineering across NATM tunnelling, microtunnelling, pipe jacking, HDD, and open-cut excavation — combining field experience with trenchless technology for complex projects in the Mumbai Metropolitan Region.</p>
+            <p>As a trusted subcontractor to Tier-1 EPC firms, our crews execute hard-rock tunnelling in congested urban corridors, below the water table, and in mixed ground — environments that demand technical expertise and precise field management.</p>
+            <ul class="pillars">
+              <li><strong>Trenchless expertise</strong> — Pipe jacking &amp; microtunnelling</li>
+              <li><strong>Conventional methods</strong> — NATM, HDD, open trench</li>
+              <li><strong>Site logistics</strong> — Plant, materials &amp; manpower</li>
+              <li><strong>HSE culture</strong> — Induction, GREEN CARD plant, PPE &amp; QC</li>
+            </ul>
+            <div class="stat-row">
+              <div class="stat"><span>6+</span><small>Capabilities</small></div>
+              <div class="stat"><span>9+</span><small>Clients</small></div>
+              <div class="stat"><span>MMR</span><small>Zone</small></div>
+              <div class="stat"><span>Zero</span><small>Harm focus</small></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- SERVICES -->
     <section class="section section-alt" id="services">
       <div class="container">
         <header class="section-head">
@@ -178,42 +220,86 @@
         </header>
         <div class="cards">
           <article class="card">
+            <div class="card-icon" aria-hidden="true">01</div>
             <h3>NATM</h3>
-            <p>New Austrian Tunnelling Method for adaptable excavation in varied ground conditions.</p>
+            <p>Sequential Excavation Method for complex tunnel geometries in rock and mixed ground — forepoling, SDA, lattice girders, wire mesh, and M30 shotcrete.</p>
           </article>
           <article class="card">
+            <div class="card-icon" aria-hidden="true">02</div>
             <h3>Microtunnelling</h3>
-            <p>Machine-driven microtunnelling for accurate alignment in constrained urban environments.</p>
+            <p>High-precision MTBMs for gravity sewers and highway/railway crossings, operating below the water table with line-and-grade accuracy.</p>
           </article>
           <article class="card">
+            <div class="card-icon" aria-hidden="true">03</div>
             <h3>Pipe Jacking</h3>
-            <p>Controlled jacking of pipes for utility corridors and crossings with minimal surface disruption.</p>
+            <p>Hydraulic jacking from deep launch shafts for sewers and stormwater drains — adaptable across diameters and ground conditions.</p>
           </article>
           <article class="card">
+            <div class="card-icon" aria-hidden="true">04</div>
             <h3>HDD</h3>
-            <p>Horizontal Directional Drilling for utility installations under roads, railways, and waterways.</p>
+            <p>Steerable trenchless solutions for river crossings, telecom ducts, and long-distance pressure pipelines with minimal surface restoration.</p>
           </article>
           <article class="card">
+            <div class="card-icon" aria-hidden="true">05</div>
             <h3>Open Trench</h3>
-            <p>Conventional open-cut excavation and reinstatement for pipelines and civil packages.</p>
+            <p>High-production open-cut with full shoring and dewatering for shallow utilities, foundations, and box culverts.</p>
           </article>
           <article class="card">
+            <div class="card-icon" aria-hidden="true">06</div>
             <h3>Logistics</h3>
-            <p>Site logistics support — plant, materials movement, and coordinated crew deployment.</p>
+            <p>Self-managed delivery of materials and large-diameter pipes to site, keeping project timelines on track.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="clients">
+    <!-- PROJECT GALLERY -->
+    <section class="section" id="gallery">
       <div class="container">
         <header class="section-head">
-          <p class="eyebrow">Clients</p>
+          <p class="eyebrow">Project Site Gallery</p>
+          <h2>Work from active sites</h2>
+          <p>Photographs from Waghela Enterprises project sites — NATM tunnelling, pipe jacking, MTBM, and HDD across the Mumbai Metropolitan Region.</p>
+        </header>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-featured">
+            <img src="images/gallery-natm-interior.jpg" alt="NATM tunnel interior with shotcrete lining and workers on scaffolding" width="602" height="460" loading="lazy" decoding="async">
+            <figcaption>NATM tunnel interior — shotcrete lining with workers</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-natm-excavator.jpg" alt="Kubota excavator operating inside a 3.2 metre NATM tunnel" width="602" height="460" loading="lazy" decoding="async">
+            <figcaption>Kubota excavator inside 3.2m NATM tunnel</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-pipe-jacking.jpg" alt="Pipe jacking operation with workers at the hydraulic jacking frame" width="602" height="460" loading="lazy" decoding="async">
+            <figcaption>Pipe jacking operation — workers at jacking frame</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-mtbm-head.jpg" alt="Microtunnel boring machine cutter head after extraction from the tunnel" width="602" height="460" loading="lazy" decoding="async">
+            <figcaption>Microtunnel boring machine (MTBM) head after extraction</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-mtbm-shaft.jpg" alt="MTBM positioned in a concrete launch shaft for microtunnelling" width="602" height="460" loading="lazy" decoding="async">
+            <figcaption>Microtunnelling — MTBM in launch shaft position</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-hdd-rig.jpg" alt="XCMG horizontal directional drilling rig deployed on site" width="602" height="460" loading="lazy" decoding="async">
+            <figcaption>XCMG HDD rig deployed for directional drilling</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENTS -->
+    <section class="section section-navy" id="clients">
+      <div class="container">
+        <header class="section-head on-dark">
+          <p class="eyebrow gold">Clients</p>
           <h2>Trusted by leading infrastructure contractors</h2>
         </header>
         <ul class="client-grid">
           <li>Welspun Michigan Engineers Ltd</li>
-          <li>J Kumar Infraprojects</li>
+          <li>J. Kumar Infraprojects Ltd.</li>
           <li>KR Construction</li>
           <li>Saket Infra</li>
           <li>Skyway Infra</li>
@@ -225,33 +311,36 @@
       </div>
     </section>
 
+    <!-- HSE -->
     <section class="section section-alt" id="hse">
       <div class="container">
         <header class="section-head">
           <p class="eyebrow">Health, Safety &amp; Environment</p>
-          <h2>Safety and quality on every shift</h2>
+          <h2>Zero-Harm on every shift</h2>
+          <p>Safety is built into every mobilisation plan, induction, and toolbox talk.</p>
         </header>
         <div class="hse-grid">
           <article class="hse-item">
             <h3>Induction</h3>
-            <p>Structured site induction for every crew member before deployment.</p>
+            <p>Mandatory HSE induction — all workmen complete site orientation before commencing work.</p>
           </article>
           <article class="hse-item">
             <h3>GREEN CARD Plant</h3>
-            <p>Plant and equipment operated under GREEN CARD compliance protocols.</p>
+            <p>All equipment holds valid fitness certification; monthly inspections enforced.</p>
           </article>
           <article class="hse-item">
             <h3>PPE</h3>
-            <p>Mandatory personal protective equipment — no compromise on site standards.</p>
+            <p>Helmets, steel-toed shoes, and reflective jackets mandatory at all times.</p>
           </article>
           <article class="hse-item">
             <h3>M30 Shotcrete / QC</h3>
-            <p>M30 shotcrete application with quality control for structural lining works.</p>
+            <p>High-grade M30 shotcrete and certified materials with rigorous on-site testing.</p>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section class="section" id="contact">
       <div class="container">
         <header class="section-head">
@@ -264,12 +353,12 @@
             <h3>Reach us</h3>
             <ul class="contact-list">
               <li>
-                <span>Mobile</span>
-                <a href="tel:+919619496191">+91 96194 96191</a>
+                <span>Main</span>
+                <a href="tel:+919821559495">+91 98215 59495</a>
               </li>
               <li>
                 <span>Alternate</span>
-                <a href="tel:+919821559495">+91 98215 59495</a>
+                <a href="tel:+919619496191">+91 96194 96191</a>
               </li>
               <li>
                 <span>Email</span>
@@ -290,14 +379,23 @@
             </ul>
             <a class="btn btn-primary" href="https://wa.me/919821559495" target="_blank" rel="noopener noreferrer">WhatsApp +91 98215 59495</a>
           </div>
-          <div class="contact-panel">
-            <h3>Head Office — Thane</h3>
-            <address>
-              Ground Floor, Bldg No. R-3, Gala No. 80,<br>
-              Shree Swami Samarth CHS, Khartan Road,<br>
-              Thane, Maharashtra — 400 607
-            </address>
-            <p class="office-note">Serving projects across Mumbai Metropolitan Region and Maharashtra.</p>
+          <div class="contact-panel contact-panel-photo">
+            <img
+              src="images/gallery-hdd-rig.jpg"
+              alt="XCMG HDD rig on a Waghela Enterprises project site"
+              width="602"
+              height="460"
+              loading="lazy"
+              decoding="async">
+            <div class="contact-address">
+              <h3>Head Office — Thane</h3>
+              <address>
+                Ground Floor, Bldg No. R-3, Gala No. 80,<br>
+                Shree Swami Samarth CHS, Khartan Road,<br>
+                Thane, Maharashtra — 400 607
+              </address>
+              <p class="office-note">Serving projects across Mumbai Metropolitan Region and Maharashtra.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -314,11 +412,15 @@
           <p class="footer-tagline">Precision Below Ground — Reliability Above All</p>
         </div>
       </div>
-      <p class="footer-copy">&copy; <span id="year"></span> Waghela Enterprises. All rights reserved.</p>
+      <div class="footer-contact">
+        <p><a href="tel:+919821559495">+91 98215 59495</a> <span class="sep">·</span> <span class="muted">Alt</span> <a href="tel:+919619496191">+91 96194 96191</a></p>
+        <p><a href="mailto:waghela.enterprises@gmail.com">waghela.enterprises@gmail.com</a></p>
+        <p class="footer-copy">&copy; <span id="year"></span> Waghela Enterprises. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
-  <a class="wa-float" href="https://wa.me/919821559495" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <a class="wa-float" href="https://wa.me/919821559495" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp +91 98215 59495">
     <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" fill="currentColor">
       <path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.15 1.6 5.96L0 24l6.3-1.65a11.86 11.86 0 0 0 5.76 1.47h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.17-3.45-8.44zM12.07 21.15h-.01a9.27 9.27 0 0 1-4.72-1.29l-.34-.2-3.74.98 1-3.65-.22-.37a9.28 9.28 0 0 1-1.42-4.93c0-5.13 4.18-9.3 9.32-9.3a9.26 9.26 0 0 1 9.3 9.3c0 5.13-4.18 9.3-9.3 9.3zm5.1-6.96c-.28-.14-1.65-.81-1.9-.9-.26-.1-.45-.14-.64.14-.19.28-.73.9-.9 1.08-.16.19-.33.21-.61.07-.28-.14-1.18-.43-2.25-1.38-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.5.14-.16.19-.28.28-.47.1-.19.05-.35-.02-.5-.07-.14-.64-1.54-.88-2.1-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.35-.26.28-1 1-1 2.43s1.02 2.82 1.16 3.01c.14.19 2.01 3.07 4.87 4.31.68.29 1.21.47 1.62.6.68.21 1.3.18 1.79.11.55-.08 1.65-.67 1.88-1.32.23-.65.23-1.2.16-1.32-.07-.11-.26-.18-.54-.32z"/>
     </svg>
