@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://waghela-enterprises.github.io/waghela-enterprises/sitemap.xml
